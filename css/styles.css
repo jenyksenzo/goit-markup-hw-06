@@ -378,13 +378,22 @@ button {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/people-mob1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 72px 0;
     max-width: 767px;
     margin: 0 auto;
+}
+
+@media (min-width:320px) and (min-resolution:192dpi) {
+    .section-one {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/people-mob2.jpg);
+        }
 }
 
 .header-sone {
@@ -439,6 +448,22 @@ button {
         max-width: 496px;
         margin-bottom: 36px;
     }
+
+    .section-one {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-tab1.jpg);
+    }
+}
+
+@media (min-width:768px) and (min-resolution:192dpi) {
+    .section-one {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-tab2.jpg);
+    }
 }
 
 @media screen and (min-width:1158px) {
@@ -449,6 +474,22 @@ button {
 
     .header-sone {
         margin-bottom: 48px;
+    }
+
+    .section-one {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+        }
+}
+
+@media (min-width:768px) and (min-resolution:192dpi) {
+    .section-one {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office2.jpg);
     }
 }
 
@@ -470,7 +511,6 @@ button {
 
 .container-stwo {
     display: block;
-    width: 288px;
 }
 
 .header-stwo {
@@ -517,6 +557,11 @@ button {
     .list-stwo {
         gap: 24px;
         flex-wrap: nowrap;
+    }
+
+    .section-two {
+        padding-bottom: 120px;
+        padding-top: 120px;
     }
 
     .container-stwo {
@@ -822,6 +867,14 @@ button {
     color: #f4f4fd;
 }
 
+.logo-part-container {
+    margin-bottom: 72px;
+}
+
+.container-footer-two {
+    margin-bottom: 72px;
+}
+
 .parag-footer {
     display: block;
     font-weight: 400;
@@ -829,7 +882,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-bottom: 72px;
 }
 
 .parag-footer-two {
@@ -860,7 +912,6 @@ button {
     width: 40px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 72px;
 }
 
 .form-footer {
@@ -956,6 +1007,10 @@ button {
         flex-direction: row;
         gap: 0px;
         margin: 0 auto;
+    }
+
+    .tablet-part-footer {
+        gap: unset;
     }
 
     .logo-part-container {
