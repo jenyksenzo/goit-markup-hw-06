@@ -327,11 +327,16 @@ button {
     color: #404bbf;
 }
 
+.mobile-contacts {
+    display: block;
+    margin-bottom: 48px;
+}
+
 .mobile-contacts-list {
     display: flex;
+    max-width: 193px;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
 }
 
 .mobile-contacts-link {
@@ -871,10 +876,6 @@ button {
     margin-bottom: 72px;
 }
 
-.container-footer-two {
-    margin-bottom: 72px;
-}
-
 .parag-footer {
     display: block;
     font-weight: 400;
@@ -894,6 +895,10 @@ button {
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
+}
+
+.tablet-part-footer {
+    margin-bottom: 72px;
 }
 
 .list-icon-footer {
@@ -973,6 +978,7 @@ button {
         display: flex;
         flex-direction: row;
         gap: 24px;
+        max-height: 112px;
     }
 
     .parag-footer {
@@ -1011,6 +1017,7 @@ button {
 
     .tablet-part-footer {
         gap: unset;
+        margin-bottom: 0;
     }
 
     .logo-part-container {
@@ -1135,8 +1142,6 @@ button {
 .input-form {
     width: 100%;
     height: 40px;
-    margin-top: 4px;
-    margin-bottom: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
